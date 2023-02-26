@@ -92,7 +92,7 @@ const ProductForm = (props) => {
           <div className="p-float-label">
             <InputNumber
               value={productData.price}
-              onChange={(e) => updateField(e.target.value.InputNumber, "price")}
+              onChange={(e) => updateField(e.target.value.InputNumber(), "price")}
               mode="currency"
               currency="USD"
             />
