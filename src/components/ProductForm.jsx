@@ -93,8 +93,7 @@ const ProductForm = (props) => {
             <InputNumber
               value={productData.price}
               onChange={(e) => updateField(e.target.value.InputNumber(), "price")}
-              mode="currency"
-              currency="USD"
+              mode="decimal"
             />
             <label>Precio:</label>
           </div>
